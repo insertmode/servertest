@@ -7,6 +7,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "jshint": "find . -not \\( -path \"./.git/*\" -o -path \"./node_modules/*\" \\) -name \"*.js\" -print0 | xargs -0 node_modules/.bin/jshint --verbose",
     "test": "lab -l",
     "update-db-design": "foreman run -e local.env sh -c 'common-couch push $DBURL db'"
   },
