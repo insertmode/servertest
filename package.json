@@ -7,7 +7,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "lab -l",
     "update-db-design": "foreman run -e local.env sh -c 'common-couch push $DBURL db'"
   },
   "author": "",
