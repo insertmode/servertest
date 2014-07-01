@@ -24,6 +24,8 @@
   "devDependencies": {
     "jshint": "^2.5.1",
     "mock-couch": "^0.1.2",
-    "common-couch": "0.0.6"
+    "common-couch": "0.0.6",
+    "lab": "^3.2.1",
+    "request": "^2.36.0"
   }
 }
